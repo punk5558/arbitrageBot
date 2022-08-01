@@ -2,8 +2,8 @@ import { ethers, run } from 'hardhat';
 
 import deployer from '../.secret';
 
-// WBNB address on BSC, WETH address on ETH
-const WethAddr = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c';
+// MATIC ADDRESS ON POLYGON
+const WethAddr = '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270';
 
 async function main() {
   await run('compile');

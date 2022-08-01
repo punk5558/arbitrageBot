@@ -5,7 +5,7 @@ import AsyncLock from 'async-lock';
 
 import { FlashBot } from '../typechain/FlashBot';
 import { Network, tryLoadPairs, getTokens } from './tokens';
-import { getBnbPrice } from './basetoken-price';
+import { getMaticPrice } from './basetoken-price';
 import log from './log';
 import config from './config';
 
@@ -15,8 +15,8 @@ function sleep(ms: number) {
 
 async function calcNetProfit(profitWei: BigNumber, address: string, baseTokens: Tokens): Promise<number> {
   let price = 1;
-  if (baseTokens.wbnb.address == address) {
-    price = await getBnbPrice();
+  if (baseTokens.wmatic.address == address) {
+    price = await getMaticPrice();
   }
   let profit = parseFloat(ethers.utils.formatEther(profitWei));
   profit = profit * price;
@@ -70,9 +70,9 @@ function arbitrageFunc(flashBot: FlashBot, baseTokens: Tokens) {
 }
 
 async function main() {
-  const pairs = await tryLoadPairs(Network.BSC);
+  const pairs = await tryLoadPairs(Network.POLYGON);
   const flashBot = (await ethers.getContractAt('FlashBot', config.contractAddr)) as FlashBot;
-  const [baseTokens] = getTokens(Network.BSC);
+  const [baseTokens] = getTokens(Network.POLYGON);
 
   log.info('Start arbitraging');
   while (true) {

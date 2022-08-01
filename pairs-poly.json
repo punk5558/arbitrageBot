@@ -1,0 +1,93 @@
+[
+  {
+    "symbols": "usdc-matic",
+    "pairs": [
+      "0xcd353F79d9FADe311fC3119B841e1f456b54e858",
+      "0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827"
+    ]
+  },
+  {
+    "symbols": "usdc-matic",
+    "pairs": [
+      "0xcd353F79d9FADe311fC3119B841e1f456b54e858",
+      "0xD776C65B2A7a5832b4172742BF8C40CC062C678E"
+    ]
+  },
+  {
+    "symbols": "usdc-matic",
+    "pairs": [
+      "0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827",
+      "0xD776C65B2A7a5832b4172742BF8C40CC062C678E"
+    ]
+  },
+  {
+    "symbols": "usdt-matic",
+    "pairs": [
+      "0x55FF76BFFC3Cdd9D5FdbBC2ece4528ECcE45047e",
+      "0x604229c960e5CACF2aaEAc8Be68Ac07BA9dF81c3"
+    ]
+  },
+  {
+    "symbols": "usdt-matic",
+    "pairs": [
+      "0x55FF76BFFC3Cdd9D5FdbBC2ece4528ECcE45047e",
+      "0x75992E8266Ab600d4e9B0D7471dB6ba0D75b44b8"
+    ]
+  },
+  {
+    "symbols": "usdt-matic",
+    "pairs": [
+      "0x604229c960e5CACF2aaEAc8Be68Ac07BA9dF81c3",
+      "0x75992E8266Ab600d4e9B0D7471dB6ba0D75b44b8"
+    ]
+  },
+  {
+    "symbols": "sand-matic",
+    "pairs": [
+      "0x1fC05157e66300377b637E93262B355d405F71c6",
+      "0x369582d2010B6eD950B571F4101e3bB9b554876F"
+    ]
+  },
+  {
+    "symbols": "matic-usdc",
+    "pairs": [
+      "0xcd353F79d9FADe311fC3119B841e1f456b54e858",
+      "0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827"
+    ]
+  },
+  {
+    "symbols": "matic-usdc",
+    "pairs": [
+      "0xcd353F79d9FADe311fC3119B841e1f456b54e858",
+      "0xD776C65B2A7a5832b4172742BF8C40CC062C678E"
+    ]
+  },
+  {
+    "symbols": "matic-usdc",
+    "pairs": [
+      "0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827",
+      "0xD776C65B2A7a5832b4172742BF8C40CC062C678E"
+    ]
+  },
+  {
+    "symbols": "usdt-usdc",
+    "pairs": [
+      "0x4B1F1e2435A9C96f7330FAea190Ef6A7C8D70001",
+      "0x2cF7252e74036d1Da831d11089D326296e64a728"
+    ]
+  },
+  {
+    "symbols": "usdt-usdc",
+    "pairs": [
+      "0x4B1F1e2435A9C96f7330FAea190Ef6A7C8D70001",
+      "0xBe40F7Fff5A2235aF9a8cb79A17373162eFeFA9C"
+    ]
+  },
+  {
+    "symbols": "usdt-usdc",
+    "pairs": [
+      "0x2cF7252e74036d1Da831d11089D326296e64a728",
+      "0xBe40F7Fff5A2235aF9a8cb79A17373162eFeFA9C"
+    ]
+  }
+]

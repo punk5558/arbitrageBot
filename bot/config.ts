@@ -6,25 +6,25 @@ interface Config {
   minimumProfit: number;
   gasPrice: BigNumber;
   gasLimit: BigNumberish;
-  bscScanUrl: string;
+  polyScanUrl: string;
   concurrency: number;
 }
 
-const contractAddr = '0xXXXXXXXXXXXXXXXXXXXXXX'; // flash bot contract address
+const contractAddr = '0x1530dCD2677469ed3F7B7DdE65cA10A8a65051e0'; // flash bot contract address
 const gasPrice = utils.parseUnits('10', 'gwei');
 const gasLimit = 300000;
 
-const bscScanApiKey = 'XXXXXXXXXXXXXXXX'; // bscscan API key
-const bscScanUrl = `https://api.bscscan.com/api?module=stats&action=bnbprice&apikey=${bscScanApiKey}`;
+const polyScanApiKey = 'QQH58JJ44PQMK7XW3TYBXB2H5PKH44479P'; // bscscan API key
+const polyScanUrl = `https://api.polygonscan.com/api?module=stats&action=maticprice&apikey=${polyScanApiKey}`;
 
 const config: Config = {
   contractAddr: contractAddr,
   logLevel: 'info',
   concurrency: 50,
-  minimumProfit: 50, // in USD
+  minimumProfit: 2, // in USD
   gasPrice: gasPrice,
   gasLimit: gasLimit,
-  bscScanUrl: bscScanUrl,
+  polyScanUrl: polyScanUrl,
 };
 
 export default config;
