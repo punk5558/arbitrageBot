@@ -21,7 +21,7 @@ const config: Config = {
   contractAddr: contractAddr,
   logLevel: 'info',
   concurrency: 50,
-  minimumProfit: 2, // in USD
+  minimumProfit: 1, // in USD
   gasPrice: gasPrice,
   gasLimit: gasLimit,
   polyScanUrl: polyScanUrl,

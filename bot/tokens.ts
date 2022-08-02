@@ -16,18 +16,24 @@ const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
 const polyBaseTokens: Tokens = { // updated to polygon network addresses
   matic: { symbol: 'matic', address: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270' },
   usdc: { symbol: 'usdc', address: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174' },
-  weth: { symbol: 'weth', address: '0xe9e7cea3dedca5984780bafc599bd69add087d56' },
+  weth: { symbol: 'weth', address: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619' },
 };
 
 const polyQuoteTokens: Tokens = { // updated to polygon network address
-  matic: { symbol: 'matic', address: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270' },
-  usdc: { symbol: 'usdc', address: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174' },
+  //matic: { symbol: 'matic', address: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270' },
+  //usdc: { symbol: 'usdc', address: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174' },
   usdt: { symbol: 'usdt', address: '0xc2132D05D31c914a87C6611C10748AEb04B58e8F' },
-  weth: { symbol: 'weth', address: '0xe9e7cea3dedca5984780bafc599bd69add087d56' },
+  //weth: { symbol: 'weth', address: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619' },
   sand: { symbol: 'sand', address: '0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683' },
   quick: { symbol: 'quick', address: '0xB5C064F955D8e7F38fE0460C556a72987494eE17' },
-  //band: { symbol: 'BAND', address: '0xad6caeb32cd2c308980a548bd0bc5aa4306c6c18' },
-  //bbadger: { symbol: 'bBADGER', address: '0x1f7216fdb338247512ec99715587bb97bbf96eae' },
+  rvlt: { symbol: 'rvlt', address: '0xf0f9D895aCa5c8678f706FB8216fa22957685A13' },
+  tel: { symbol: 'tel', address: '0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32' },
+  voxel: { symbol: 'voxel', address: '0xd0258a3fD00f38aa8090dfee343f10A9D4d30D3F' },
+  ixt: { symbol: 'ixt', address: '0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE' },
+  gns: { symbol: 'gns', address: '0xE5417Af564e4bFDA1c483642db72007871397896' },
+  qidao: { symbol: 'qi', address: '0x580A84C73811E1839F75d86d75d88cCa0c241fF4' },
+  stmatic: { symbol: 'stmatic', address: '0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4' },
+  mimatic: { symbol: 'mimatic', address: '0xa3Fa99A148fA48D14Ed51d610c367C61876997F1' },
 };
 
 const polyDexes: AmmFactories = { // updated to polygon dex factories

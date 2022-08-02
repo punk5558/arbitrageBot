@@ -1,6 +1,7 @@
 import { task, HardhatUserConfig } from 'hardhat/config';
 import '@typechain/hardhat';
 import '@nomiclabs/hardhat-waffle';
+import "@nomiclabs/hardhat-etherscan";
 
 import deployer from './.secret';
 
@@ -35,6 +36,11 @@ const config: HardhatUserConfig = {
   mocha: {
     timeout: 40000,
   },
+
+  etherscan: {
+    apiKey: 'QQH58JJ44PQMK7XW3TYBXB2H5PKH44479P',
+  },
+
 };
 
 /**

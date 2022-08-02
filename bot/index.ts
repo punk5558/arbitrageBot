@@ -15,7 +15,10 @@ function sleep(ms: number) {
 
 async function calcNetProfit(profitWei: BigNumber, address: string, baseTokens: Tokens): Promise<number> {
   let price = 1;
-  if (baseTokens.wmatic.address == address) {
+  //console.log("testing6");
+  //console.log(baseTokens.matic.address);
+  if (baseTokens.matic.address == address) {
+    //console.log("testing7");
     price = await getMaticPrice();
   }
   let profit = parseFloat(ethers.utils.formatEther(profitWei));
@@ -29,12 +32,13 @@ function arbitrageFunc(flashBot: FlashBot, baseTokens: Tokens) {
   const lock = new AsyncLock({ timeout: 2000, maxPending: 20 });
   return async function arbitrage(pair: ArbitragePair) {
     const [pair0, pair1] = pair.pairs;
-
+    //console.log("testing1");
     let res: [BigNumber, string] & {
       profit: BigNumber;
       baseToken: string;
     };
     try {
+      //console.log("testing2");
       res = await flashBot.getProfit(pair0, pair1);
       log.debug(`Profit on ${pair.symbols}: ${ethers.utils.formatEther(res.profit)}`);
     } catch (err) {
@@ -43,8 +47,11 @@ function arbitrageFunc(flashBot: FlashBot, baseTokens: Tokens) {
     }
 
     if (res.profit.gt(BigNumber.from('0'))) {
+      //console.log("testing3");
       const netProfit = await calcNetProfit(res.profit, res.baseToken, baseTokens);
+      //console.log("testing4");
       if (netProfit < config.minimumProfit) {
+        //console.log("testing5");
         return;
       }
 

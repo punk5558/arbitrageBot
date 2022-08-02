@@ -1,26 +1,5 @@
 [
   {
-    "symbols": "usdc-matic",
-    "pairs": [
-      "0xcd353F79d9FADe311fC3119B841e1f456b54e858",
-      "0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827"
-    ]
-  },
-  {
-    "symbols": "usdc-matic",
-    "pairs": [
-      "0xcd353F79d9FADe311fC3119B841e1f456b54e858",
-      "0xD776C65B2A7a5832b4172742BF8C40CC062C678E"
-    ]
-  },
-  {
-    "symbols": "usdc-matic",
-    "pairs": [
-      "0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827",
-      "0xD776C65B2A7a5832b4172742BF8C40CC062C678E"
-    ]
-  },
-  {
     "symbols": "usdt-matic",
     "pairs": [
       "0x55FF76BFFC3Cdd9D5FdbBC2ece4528ECcE45047e",
@@ -49,24 +28,66 @@
     ]
   },
   {
-    "symbols": "matic-usdc",
+    "symbols": "tel-matic",
     "pairs": [
-      "0xcd353F79d9FADe311fC3119B841e1f456b54e858",
-      "0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827"
+      "0x87aCD3D73bc4d56e5A4Fb36071De929a4571CdA0",
+      "0x9b5c71936670e9f1F36e63F03384De7e06E60d2a"
     ]
   },
   {
-    "symbols": "matic-usdc",
+    "symbols": "tel-matic",
     "pairs": [
-      "0xcd353F79d9FADe311fC3119B841e1f456b54e858",
-      "0xD776C65B2A7a5832b4172742BF8C40CC062C678E"
+      "0x87aCD3D73bc4d56e5A4Fb36071De929a4571CdA0",
+      "0x9F9ecD7C1AA7Fa27092F885df1870663cAE8b021"
     ]
   },
   {
-    "symbols": "matic-usdc",
+    "symbols": "tel-matic",
     "pairs": [
-      "0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827",
-      "0xD776C65B2A7a5832b4172742BF8C40CC062C678E"
+      "0x9b5c71936670e9f1F36e63F03384De7e06E60d2a",
+      "0x9F9ecD7C1AA7Fa27092F885df1870663cAE8b021"
+    ]
+  },
+  {
+    "symbols": "voxel-matic",
+    "pairs": [
+      "0xEC5500FB24398079Ceefe34508E0deB0C2Ce7e17",
+      "0x01Fd0D981dcf288dD9aFe4d1F75c82a76Ca2128F"
+    ]
+  },
+  {
+    "symbols": "ixt-matic",
+    "pairs": [
+      "0x014Ac2A53Aa6fBA4DcD93FdE6d3c787B79a1a6E6",
+      "0x8fcB93C0D9fA361c57c1d31bbF1c4d8C61af7d3d"
+    ]
+  },
+  {
+    "symbols": "gns-matic",
+    "pairs": [
+      "0x9740a46B11B47010bCFb130Cd61882FEAa0F6E70",
+      "0x71083873027583CF3b6A94C5BAddC20482C587EE"
+    ]
+  },
+  {
+    "symbols": "qi-matic",
+    "pairs": [
+      "0xCe00673a5a3023EBE47E3D46e4D59292e921dc7c",
+      "0x9A8b2601760814019B7E6eE0052E25f1C623D1E6"
+    ]
+  },
+  {
+    "symbols": "stmatic-matic",
+    "pairs": [
+      "0x9B9b6192F4aDcbF039C1b07aa5b237D55871301d",
+      "0x65752C54D9102BDFD69d351E1838A1Be83C924C6"
+    ]
+  },
+  {
+    "symbols": "mimatic-matic",
+    "pairs": [
+      "0x619F43DB4A1Fd21F582B35D6628936d40A0ABdb6",
+      "0x7805B64e2d99412d3b8F10Dfe8fc55217C5cc954"
     ]
   },
   {
@@ -88,6 +109,104 @@
     "pairs": [
       "0x2cF7252e74036d1Da831d11089D326296e64a728",
       "0xBe40F7Fff5A2235aF9a8cb79A17373162eFeFA9C"
+    ]
+  },
+  {
+    "symbols": "voxel-usdc",
+    "pairs": [
+      "0xd134c7785866F1bF800C2955B200C3B0eFcd3F50",
+      "0x7C303894A165830751F524eBdb6B198afFbb7211"
+    ]
+  },
+  {
+    "symbols": "ixt-usdc",
+    "pairs": [
+      "0xAf1903678d352d7997F8487909f07b1C49D4AF44",
+      "0xaa287eF923a73c27D41392c0f1aE8eeA3Dd75C1C"
+    ]
+  },
+  {
+    "symbols": "qi-usdc",
+    "pairs": [
+      "0x609143Aa2b97Ad1495c3A8Db05DB92B4E4218a4d",
+      "0x1dBba57B3d9719c007900D21e8541e90bC6933EC"
+    ]
+  },
+  {
+    "symbols": "mimatic-usdc",
+    "pairs": [
+      "0x8ceed6619aeFFD5476315b90eb081485dA2aEbCA",
+      "0x160532D2536175d65C03B97b0630A9802c274daD"
+    ]
+  },
+  {
+    "symbols": "mimatic-usdc",
+    "pairs": [
+      "0x8ceed6619aeFFD5476315b90eb081485dA2aEbCA",
+      "0x99ad92978274128a1e8F46669f592655aCD9583f"
+    ]
+  },
+  {
+    "symbols": "mimatic-usdc",
+    "pairs": [
+      "0x160532D2536175d65C03B97b0630A9802c274daD",
+      "0x99ad92978274128a1e8F46669f592655aCD9583f"
+    ]
+  },
+  {
+    "symbols": "usdt-weth",
+    "pairs": [
+      "0xc2755915a85C6f6c1C0F3a86ac8C058F11Caa9C9",
+      "0xF6422B997c7F54D1c6a6e103bcb1499EeA0a7046"
+    ]
+  },
+  {
+    "symbols": "usdt-weth",
+    "pairs": [
+      "0xc2755915a85C6f6c1C0F3a86ac8C058F11Caa9C9",
+      "0x5d577d6CdC82d7b6cAC7A101766b68f45bc3e34E"
+    ]
+  },
+  {
+    "symbols": "usdt-weth",
+    "pairs": [
+      "0xF6422B997c7F54D1c6a6e103bcb1499EeA0a7046",
+      "0x5d577d6CdC82d7b6cAC7A101766b68f45bc3e34E"
+    ]
+  },
+  {
+    "symbols": "sand-weth",
+    "pairs": [
+      "0x91A94765dF00f4C148364b2a2C624A854C6B3a1b",
+      "0x100E0cFcaDb56C05f614502B4fe8e4F7A501ef34"
+    ]
+  },
+  {
+    "symbols": "rvlt-weth",
+    "pairs": [
+      "0x3902b89e0e28A23F82086b87Bb81ef5a1eAbf276",
+      "0x73a45F68aE68958d4990F452C6d22136e8cb0004"
+    ]
+  },
+  {
+    "symbols": "tel-weth",
+    "pairs": [
+      "0xe83f1c7990440445EE52f1395686A3e4BF5b4e47",
+      "0xFc2fC983a411C4B1E238f7Eb949308CF0218C750"
+    ]
+  },
+  {
+    "symbols": "qi-weth",
+    "pairs": [
+      "0x6B032085d1985A179562127D6e7b4e1E683Ee3e6",
+      "0x8C1b40Ea78081B70F661C3286c74E71b4602C9C0"
+    ]
+  },
+  {
+    "symbols": "mimatic-weth",
+    "pairs": [
+      "0xCF2aBFf7B321CCAaaF4faca391Aa4Ffc87EfEc13",
+      "0x017e669B1C3C09b6E5D7b954d46EF425a3574FE1"
     ]
   }
 ]

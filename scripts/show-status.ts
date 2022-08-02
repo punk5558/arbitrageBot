@@ -5,7 +5,7 @@ async function main() {
   await run('compile');
   const flashBot: FlashBot = (await ethers.getContractAt(
     'FlashBot',
-    'CONTRACT ADDRESS' // contract address
+    '0x1530dCD2677469ed3F7B7DdE65cA10A8a65051e0' // contract address
   )) as FlashBot;
 
   const owner = await flashBot.owner();
