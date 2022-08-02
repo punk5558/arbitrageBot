@@ -1,4 +1,4 @@
-**Note**: This repo is not under maintenning. If you encounter problems when running. Please figure it out by yourself.
+**Note**: This repo is not for production 
 
 This repo is written only for POC. The bot is implemented simply for demostration. It's not robust enough to be competitve with other arb bots that are running in the network. If you want a production-ready arb bot, then you might need to implement a bot by yourself.
 
